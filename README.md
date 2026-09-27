@@ -96,25 +96,6 @@ The current Post model contains:
 
 The slug is unique to prevent duplicate post identifiers.
 
-## Project Structure
-
-personal-blog-api/
-├── prisma/
-│   ├── migrations/
-│   └── schema.prisma
-├── src/
-│   ├── controller/
-│   ├── errors/
-│   ├── infrastructure/
-│   ├── middleware/
-│   ├── routes/
-│   ├── services/
-│   ├── validation/
-│   └── server.ts
-├── docker-compose.yml
-├── prisma.config.ts
-├── package.json
-└── tsconfig.json
 
 ## Roadmap
 
