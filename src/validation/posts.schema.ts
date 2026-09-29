@@ -5,3 +5,9 @@ export const createPostSchema = z.object({
     slug: z.string().min(1),
     content: z.string().min(1),
 });
+
+export const updatePostSchema = z.object({
+    title: z.string().min(1).optional(),
+    slug: z.string().min(1).optional(),
+    content: z.string().min(1).optional(),
+});
